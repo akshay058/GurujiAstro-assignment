@@ -1,0 +1,26 @@
+.container-fluid {
+  height: 35rem;
+  /* width: 100vw; */
+  /* mix-blend-mode: lighten; */
+  position: absolute;
+  background: #972103;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+
+  /* background-color: blue; */
+  background: url(../images/purpleBackground.jpg);
+  background-color: rgba(255, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+.content {
+  color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

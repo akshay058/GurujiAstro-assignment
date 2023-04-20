@@ -1,0 +1,26 @@
+.img-responsive {
+  width: auto;
+  height: 30rem;
+}
+.card {
+  background-color: "brown";
+}
+.container {
+  background-color: bisque;
+  /* margin-top: "25rem"; */
+  /* width: 80vw; */
+}
+.chat {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.call {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.chat:hover {
+  color: rgb(40, 183, 167);
+}
+.call:hover {
+  color: rgb(40, 183, 167);
+}

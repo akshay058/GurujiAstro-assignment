@@ -1,0 +1,63 @@
+body {
+  background: #1a1919;
+}
+.app {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 29.1%;
+  margin-bottom: 0%;
+  /* margin: 20rem; */
+  background-color: bisque;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 2px solid #fff;
+  background: rgb(249, 249, 245);
+  border-radius: 8px;
+  overflow: hidden;
+
+  height: 400px;
+  color: #1e1d1d;
+  cursor: pointer;
+}
+
+/* .card-top h1 {
+  font-size: 0.9rem;
+  margin: 20px;
+} */
+
+.card-top > img {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+  background: black;
+}
+
+.card-bottom {
+  margin: 10px 20px;
+}
+
+.category {
+  position: relative;
+}
+.category::before {
+  content: "";
+  background: rgb(255, 61, 61);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  right: 0;
+  height: 2px;
+}
