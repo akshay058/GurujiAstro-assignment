@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./styles/UserTestimonial.css";
 import { userData } from "../data";
+import sun from "./images/Vector.png";
+import star from "./images/star.png";
 // import imgGirl from "./images/defaultImage.jpg";
 // import imgBoy from "./images/defaultimage2.jpg";
 
@@ -54,19 +56,40 @@ export default function UserTestimonial() {
 
   return (
     <div className="app">
-      <h1 style={{ textAlign: "center" }}>User Testimonial</h1>
+      <div className="my-1 d-flex flex-column justify-content-center align-items-center">
+        <img
+          src={sun}
+          style={{ height: "7rem", width: "7rem", marginTop: "2rem" }}
+        ></img>
+      </div>
+      <div className=" d-flex flex-row justify-content-center align-items-center">
+        <img
+          src={star}
+          className="mx-3"
+          style={{ height: "2rem", width: "2rem" }}
+        ></img>
+        <h1
+          className="my-5"
+          style={{
+            textAlign: "center",
+            fontWeight: "700",
+            fontFamily: "sansation",
+            color: "#D97122",
+          }}
+        >
+          User Testimonial
+        </h1>
+        <img
+          src={star}
+          className="mx-3"
+          style={{ height: "2rem", width: "2rem" }}
+        ></img>
+      </div>
       <Slider {...settings}>
         {userData.map((item) => (
           <div className="card d-flex flex-column">
             <div className="card-top">
-              <img
-                src={item.linkImg}
-                //  defaultImage[item.name] !== item.name
-                //     ? defaultImage.linkDefault
-                //     : item.linkImg
-                alt={item.name}
-                // onError={handleErrorImage}
-              />
+              <img src={item.linkImg} alt={item.name} />
             </div>
             <div className="card-bottom">
               <h4>

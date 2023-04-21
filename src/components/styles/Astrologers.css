@@ -7,9 +7,9 @@
 }
 .container {
   background-color: bisque;
-  /* margin-top: "25rem"; */
-  /* width: 80vw; */
-  /* position: relative; */
+  height: 120rem;
+  margin-bottom: 10rem;
+  margin-top: 0%;
 }
 .chat {
   color: white;

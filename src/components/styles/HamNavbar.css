@@ -56,10 +56,9 @@ nav {
     position: absolute;
     top: 90px;
     left: -40em;
-    width: 20rem;
-    height: 10vh;
-    /* background: rgb(184, 31, 41); */
-    opacity: 0.6;
+    width: 11rem;
+    height: 30vh;
+    background: rgb(44, 2, 2);
   }
   #navbar.active {
     left: 0;

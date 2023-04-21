@@ -35,17 +35,17 @@ export default function HamNavbar() {
           >
             <li>
               {" "}
-              <a href="index.html" className="active">
+              <a href="/" className="active">
                 Home
               </a>{" "}
             </li>
             <li>
               {" "}
-              <a href="index.html">Call with Astrologer</a>
+              <a href="/">Call with Astrologer</a>
             </li>
             <li>
               {" "}
-              <a href="index.html">Live(Coming Soon)</a>
+              <a href="/">Live(Coming Soon)</a>
             </li>
           </ul>
         </div>

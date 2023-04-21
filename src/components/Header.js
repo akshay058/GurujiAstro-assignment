@@ -5,8 +5,8 @@ import HamNavbar from "./HamNavbar";
 export default function Header() {
   return (
     <div className="container-fluid">
-      <HamNavbar />
-      <div className="content">
+      {/* <HamNavbar /> */}
+      <div className="content my-5">
         <p
           style={{ fontSize: "5rem", marginBottom: "2rem", marginTop: "2rem" }}
         >

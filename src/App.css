@@ -6,12 +6,12 @@
 .App {
   font-family: sans-serif;
   /* text-align: center; */
-  height: 500vh;
+  height: 480vh;
   width: 100vw;
   /* position: absolute; */
   /* display: flex;
   flex-direction: column; */
-  background-color: rgb(211, 165, 66);
+  background-color: rgb(86, 61, 6);
 }
 /* 
 .App-logo {

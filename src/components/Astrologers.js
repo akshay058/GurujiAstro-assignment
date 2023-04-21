@@ -5,11 +5,35 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { userData } from "../data";
 import { astroData } from "../astroData";
+import star from "./images/star.png";
 
 export default function Astrologers() {
   return (
-    <div className="container my-1">
-      <h1 className="text-center my-5">Premium Astrologers</h1>
+    <div className="container">
+      <div className=" d-flex flex-row justify-content-center align-items-center">
+        <img
+          src={star}
+          className="mx-3"
+          style={{ height: "2rem", width: "2rem" }}
+        ></img>
+        <h1
+          className="text-center my-5"
+          style={{
+            // textAlign: "center",
+            fontWeight: "700",
+            fontFamily: "sansation",
+            color: "#D97122",
+            // marginTop: "10rem",
+          }}
+        >
+          Premium Astrologers
+        </h1>
+        <img
+          src={star}
+          className="mx-3"
+          style={{ height: "2rem", width: "2rem" }}
+        ></img>
+      </div>
       <Row xs={1} md={3} className="g-4 mx-3">
         {astroData.map((item) => (
           <Col key={item.id}>
