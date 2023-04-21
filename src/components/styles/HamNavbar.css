@@ -58,13 +58,13 @@ nav {
     left: -40em;
     width: 11rem;
     /* width:100%; */
-    height: 30vh;
+    height: 35vh;
     background: rgb(44, 2, 2);
   }
   #navbar.active {
     left: 0;
-    width:40%;
-    top:5
+    width: 40%;
+    top: 5;
   }
   #navbar li {
     /* list-style-type: none;
