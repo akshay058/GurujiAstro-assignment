@@ -22,12 +22,12 @@ body {
   background: rgb(218, 211, 207);
   overflow: hidden;
   height: 25rem;
-  color: #1e1d1d;
+  color: #f4e2e2;
   cursor: pointer;
 }
 
 .bannercard-top > img {
-  width:102%;
+  width: 102%;
   /* margin: auto; */
   margin-left: -1%;
   height: 26rem;

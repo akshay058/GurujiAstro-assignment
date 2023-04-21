@@ -48,20 +48,22 @@ export default function UserTestimonial() {
 
   return (
     <div className="app">
-      <div className=" my-1 d-flex flex-column justify-content-center align-items-center">
+      <div className=" d-flex flex-column justify-content-center align-items-center">
         <img
-          src={sun} alt="sun"
+          src={sun}
+          alt="sun"
           style={{ height: "7rem", width: "7rem", marginTop: "2rem" }}
         ></img>
       </div>
       <div className=" d-flex flex-row justify-content-center align-items-center">
         <img
-          src={star} alt="star"
+          src={star}
+          alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>
         <h1
-          className="my-5"
+          className="my-4"
           style={{
             textAlign: "center",
             fontWeight: "700",
@@ -72,7 +74,8 @@ export default function UserTestimonial() {
           User Testimonial
         </h1>
         <img
-          src={star} alt="star"
+          src={star}
+          alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>

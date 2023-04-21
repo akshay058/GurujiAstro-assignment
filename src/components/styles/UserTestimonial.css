@@ -29,6 +29,7 @@ body {
   background: rgb(249, 249, 245);
   border-radius: 8px;
   overflow: hidden;
+  /* margin-bottom: 20%; */
 
   height: 400px;
   color: #1e1d1d;

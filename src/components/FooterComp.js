@@ -17,7 +17,8 @@ export default function FooterComp() {
           <div>
             {" "}
             <img
-              src={guruji} alt="guruji"
+              src={guruji}
+              alt="guruji"
               style={{ borderRadius: "50%", width: "50%", height: "50" }}
             ></img>
           </div>
