@@ -40,6 +40,33 @@ export default function Astrologers() {
                   </h4>
                 </div>
                 <div
+                  className="d-flex flex-row justify-content-center align-items-center"
+                  style={{
+                    position: "absolute",
+                    marginTop: "-30rem",
+                    color: "white",
+                    backgroundColor: "rgba(0, 0, 0, 0.5)",
+                    fontSize: "1.3rem",
+                    borderRadius: "5%",
+                    marginRight: "-16rem",
+                    fontFamily: "sans-serif",
+                    textShadow: "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
+                    fontWeight: "600",
+                    width: "6rem",
+                  }}
+                >
+                  <div
+                    className="mx-2"
+                    style={{
+                      height: "0.7rem",
+                      width: "0.7rem",
+                      backgroundColor: "#2CDC00",
+                      borderRadius: "50%",
+                    }}
+                  ></div>
+                  <div>{item.status}</div>
+                </div>
+                <div
                   style={{
                     position: "absolute",
                     marginTop: "-15rem",
@@ -107,6 +134,29 @@ export default function Astrologers() {
                     </h5>
                   </span>
                 </div>
+                <div
+                  className="d-flex flex-column"
+                  style={{
+                    position: "absolute",
+                    marginTop: "-7rem",
+                    color: "#5CE449",
+                    backgroundColor: "rgba(0, 0, 0, 0.5)",
+                    fontSize: "1.3rem",
+                    borderRadius: "5%",
+                    marginRight: "-16rem",
+                    fontFamily: "Poppins",
+                    textShadow: "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
+                    fontWeight: "600",
+                    width: "7rem",
+                  }}
+                >
+                  <div className="mx-4">Price</div>
+                  <div className="mx-" style={{ fontFamily: "DM Sans" }}>
+                    <h2>
+                      <b>{item.price}</b>
+                    </h2>
+                  </div>
+                </div>
                 <div className="chat d-flex">
                   <i className="fa-regular fa-comment-dots fa-2x mx-3"></i>{" "}
                   {/* <i className="fa-solid fa-headset fa-2x"></i> */}
@@ -115,6 +165,7 @@ export default function Astrologers() {
                   </Card.Title>
                 </div>
                 <div
+                  className="play"
                   style={{
                     // display: "inline-block",
                     display: "flex",

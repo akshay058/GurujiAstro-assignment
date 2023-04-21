@@ -9,6 +9,7 @@
   background-color: bisque;
   /* margin-top: "25rem"; */
   /* width: 80vw; */
+  /* position: relative; */
 }
 .chat {
   color: white;
@@ -22,5 +23,8 @@
   color: rgb(40, 183, 167);
 }
 .call:hover {
+  color: rgb(40, 183, 167);
+}
+.play:hover {
   color: rgb(40, 183, 167);
 }

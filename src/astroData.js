@@ -6,7 +6,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -17,7 +17,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -28,7 +28,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -39,7 +39,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -50,7 +50,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -61,7 +61,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -72,7 +72,7 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
     status: "online",
   },
   {
@@ -83,7 +83,18 @@ export const astroData = [
     name: "Astrologer Ramraj",
     specialities: "Love, Bussiness, Life",
     skills: "Vedic Astrology, Kundali",
-    price: "10/min",
+    price: "₹10/min",
+    status: "online",
+  },
+  {
+    id: 9,
+    imgLink:
+      "https://www.wallpaperup.com/uploads/wallpapers/2014/11/20/522039/b9f14a10741bc0c6d88f3d262191b876.jpg",
+    experience: "10+Years",
+    name: "Astrologer Ramraj",
+    specialities: "Love, Bussiness, Life",
+    skills: "Vedic Astrology, Kundali",
+    price: "₹10/min",
     status: "online",
   },
 ];

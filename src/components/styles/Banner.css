@@ -1,0 +1,41 @@
+body {
+  background: #1a1919;
+}
+.banner {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 1%;
+  /* margin-bottom: 0%; */
+  /* margin: 20rem; */
+  background-color: bisque;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.bannercard {
+  /* border: 2px solid rgb(208, 84, 7); */
+  background: rgb(218, 211, 207);
+  overflow: hidden;
+  height: 25rem;
+  color: #1e1d1d;
+  cursor: pointer;
+}
+
+.bannercard-top > img {
+  width: 100rem;
+  /* margin: auto; */
+  margin-left: -1%;
+  height: 26rem;
+  object-fit: fill;
+  /* object-fit: cover; */
+  /* object-fit: fill; */
+  background: black;
+  /* border-radius: 50%; */
+}
