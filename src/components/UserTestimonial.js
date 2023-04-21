@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,7 +10,7 @@ import star from "./images/star.png";
 // import imgBoy from "./images/defaultimage2.jpg";
 
 export default function UserTestimonial() {
-  const [defaultImage, setDefaultImage] = useState({});
+  // const [defaultImage, setDefaultImage] = useState({});
   const settings = {
     dots: true,
     infinite: false,
@@ -46,25 +46,17 @@ export default function UserTestimonial() {
     ],
   };
 
-  // const handleErrorImage = (data) => {
-  //   setDefaultImage((prev) => ({
-  //     ...prev,
-  //     [data.target.alt]: data.target.alt,
-  //     linkDefault: imgGirl,
-  //   }));
-  // };
-
   return (
     <div className="app">
-      <div className="my-1 d-flex flex-column justify-content-center align-items-center">
+      <div className=" my-1 d-flex flex-column justify-content-center align-items-center">
         <img
-          src={sun}
+          src={sun} alt="sun"
           style={{ height: "7rem", width: "7rem", marginTop: "2rem" }}
         ></img>
       </div>
       <div className=" d-flex flex-row justify-content-center align-items-center">
         <img
-          src={star}
+          src={star} alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>
@@ -80,14 +72,14 @@ export default function UserTestimonial() {
           User Testimonial
         </h1>
         <img
-          src={star}
+          src={star} alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>
       </div>
       <Slider {...settings}>
         {userData.map((item) => (
-          <div className="card d-flex flex-column">
+          <div className="card d-flex flex-column" key={item.id}>
             <div className="card-top">
               <img src={item.linkImg} alt={item.name} />
             </div>

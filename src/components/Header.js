@@ -1,14 +1,14 @@
 import React from "react";
 import "./styles/Header.css";
-import HamNavbar from "./HamNavbar";
+// import HamNavbar from "./HamNavbar";
 
 export default function Header() {
   return (
     <div className="container-fluid">
       {/* <HamNavbar /> */}
-      <div className="content my-5">
+      <div className="content my-5 flex-wrap">
         <p
-          style={{ fontSize: "5rem", marginBottom: "2rem", marginTop: "2rem" }}
+          style={{ fontSize: "500%", marginBottom: "2rem", marginTop: "2rem" }}
         >
           “Astrology for Clarity”
         </p>

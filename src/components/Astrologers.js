@@ -3,16 +3,17 @@ import "./styles/Astrologers.css";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { userData } from "../data";
+// import { userData } from "../data";
 import { astroData } from "../astroData";
 import star from "./images/star.png";
 
 export default function Astrologers() {
   return (
-    <div className="container">
+    <div className="container1">
       <div className=" d-flex flex-row justify-content-center align-items-center">
         <img
           src={star}
+          alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>
@@ -30,6 +31,7 @@ export default function Astrologers() {
         </h1>
         <img
           src={star}
+          alt="star"
           className="mx-3"
           style={{ height: "2rem", width: "2rem" }}
         ></img>
@@ -53,7 +55,7 @@ export default function Astrologers() {
                     marginTop: "-30rem",
                     color: "white",
                     fontSize: "1rem",
-                    marginLeft: "-15rem",
+                    marginLeft: "-19rem",
                     fontFamily: "sans-serif",
                     textShadow: "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
                     fontWeight: "600",
@@ -72,7 +74,7 @@ export default function Astrologers() {
                     backgroundColor: "rgba(0, 0, 0, 0.5)",
                     fontSize: "1.3rem",
                     borderRadius: "5%",
-                    marginRight: "-16rem",
+                    marginRight: "-20rem",
                     fontFamily: "sans-serif",
                     textShadow: "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
                     fontWeight: "600",
@@ -98,7 +100,7 @@ export default function Astrologers() {
                     fontSize: "1rem",
                     fontFamily: "Poppins",
                     opacity: "0.9",
-                    marginLeft: "-8rem",
+                    marginLeft: "-11rem",
                     textShadow:
                       "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.3), 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
                     fontWeight: "600",
@@ -115,7 +117,7 @@ export default function Astrologers() {
                     color: "#FFDBC0",
                     fontSize: "1rem",
                     fontFamily: "Poppins",
-                    marginLeft: "-10rem",
+                    marginLeft: "-12rem",
                     fontWeight: "500",
                     letterSpacing: "1px",
                     mixBlendMode: "normal",
@@ -140,7 +142,7 @@ export default function Astrologers() {
                     color: "#FFDBC0",
                     fontSize: "1rem",
                     fontFamily: "Poppins",
-                    marginLeft: "-8rem",
+                    marginLeft: "-10rem",
                     fontWeight: "500",
                     letterSpacing: "1px",
                     mixBlendMode: "normal",
@@ -167,7 +169,7 @@ export default function Astrologers() {
                     backgroundColor: "rgba(0, 0, 0, 0.5)",
                     fontSize: "1.3rem",
                     borderRadius: "5%",
-                    marginRight: "-16rem",
+                    marginRight: "-20rem",
                     fontFamily: "Poppins",
                     textShadow: "0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25)",
                     fontWeight: "600",

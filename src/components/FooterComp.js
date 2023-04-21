@@ -1,15 +1,15 @@
 import guruji from "./images/guruji.jpg";
 import "./styles/FooterComp.css";
 import { Link } from "react-router-dom";
-import React, { Component } from "react";
-import Container from "react-bootstrap/Container";
+import React from "react";
+// import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
 import Form from "react-bootstrap/Form";
 export default function FooterComp() {
   return (
     <div
-      className=" foot d-flex flex-row justify-content-evenly p-4"
+      className=" foot d-flex flex-row justify-content-evenly p-4 flex-wrap"
       style={{ color: "white" }}
     >
       <div className="d-flex flex-column my-3" style={{ width: "20%" }}>
@@ -17,7 +17,7 @@ export default function FooterComp() {
           <div>
             {" "}
             <img
-              src={guruji}
+              src={guruji} alt="guruji"
               style={{ borderRadius: "50%", width: "50%", height: "50" }}
             ></img>
           </div>

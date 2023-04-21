@@ -27,7 +27,7 @@ body {
 }
 
 .bannercard-top > img {
-  width: 100rem;
+  width:102%;
   /* margin: auto; */
   margin-left: -1%;
   height: 26rem;
